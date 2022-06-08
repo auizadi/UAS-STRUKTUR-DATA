@@ -36,7 +36,7 @@
 				break;
 			}
 			visit[u] = true;
-			//melakukan relax untuk semua neighbor u
+			
 			for(v = 1; v <= n; v++){
 				if(tabel[u][v] != 0){
 					if(jarak[v] > jarak[u] + tabel[u][v]){
